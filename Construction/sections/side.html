@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  width: 190px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 10px 10px 10px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="" style="font-size: 20px;">IWP-CMS</a>
+  <a href="index.php">Home</a>
+  <a href="index.php?page=employee&io=1">Workers</a>
+  <a href="getattendance.php">Worker Attendance</a>
+  <a href="add_supplier.php">Add Suppliers</a>
+  <a href="manage_supplier.php">Manage Suppliers</a>
+  <a href="add_purchase.php">Add Materials</a>
+  <a href="manage_matrials.php">Manage Materials</a>
+  <a href="manage_materials_stock.php">Manage Material Stock</a>
+  <a href="manage_purchase.php">Manage Purchase</a>
+  <a href="purchase_report.php">Purchase Report</a>
+  <a href="index.php?page=position">Position</a>
+  <a href="index.php?page=division">Project Division</a>
+  <a href="index.php?page=project_team">Project Team</a>
+  <a href="../includes/logout.php">Logout</a>
+
+
+</div>
+
+
+
+</body>
+</html> 
