@@ -1,1 +1,2 @@
 # Construction_Management_System
+A corporation may be working on several projects at the same time, and a multi-level development plan may necessitate input from a number of persons or teams, necessitating the use of a strong project management system. In the construction business, construction management systems are a rapidly emerging technology. Web-based construction management systems are becoming increasingly important in the construction businesses as the number of users who use construction management software to manage all the works going in the construction site.
